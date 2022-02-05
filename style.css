@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+
+
+#navbar{
+    background: #2BC0E4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+#containerbox{
+    background: #9796f0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h2{
+    font-family: 'Supermercado One', cursive;
+    text-align: center;
+}
+
+/* .accordionExample{
+    font-family: 'Quintessential', cursive;
+} */
