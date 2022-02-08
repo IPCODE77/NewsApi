@@ -11,13 +11,13 @@ let apikey='d9fa043f7f074395bcbf48cfacb704ff ';
 
 const xhr=new XMLHttpRequest();
 
-// xhr.open('GET',`https://newsapi.org/v2/top-headlines?sources=${source}&apikey=${apikey}`,true);
-// xhr.open('GET', `https://newsapi.org/v2/top-headlines?country=us&apiKey=d9fa043f7f074395bcbf48cfacb704ff`,true);
+
 xhr.open('GET','https://newsapi.org/v2/top-headlines?country=in&apiKey=d9fa043f7f074395bcbf48cfacb704ff',true)
 
 xhr.onload=function(){
     if(xhr.status==200){
         let json=JSON.parse(this.responseText);
+        console.log(json); 
         let articles=json.articles;
         let newsapi="";
         articles.forEach(function(element,index){
